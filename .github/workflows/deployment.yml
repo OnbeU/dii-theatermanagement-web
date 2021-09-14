@@ -31,7 +31,7 @@ jobs:
 #       PACT_BROKER_BASE_URL: ''
 #       PACT_BROKER_TOKEN: ''
     
-    - name: 'Publish Apps'
+    - name: 'Build and Deploy Apps'
       uses: OnbeUStudent/devopssetup/actions/publishimage@master
       with: 
         APP_NAME: ${{ env.APP_NAME}}
