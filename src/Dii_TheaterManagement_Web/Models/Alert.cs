@@ -1,6 +1,5 @@
 ﻿namespace Dii_TheaterManagement_Web.Models
 {
-// test comment
     public class Alert
     {
         public long Id { get; set; }
