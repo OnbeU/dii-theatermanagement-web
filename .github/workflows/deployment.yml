@@ -32,7 +32,7 @@ jobs:
 #       PACT_BROKER_TOKEN: ''
     
     - name: 'Build and Deploy Apps'
-      uses: OnbeUStudent/devopssetup/actions/publishimage@master
+      uses: OnbeUStudent/devopssetup/actions/csharpdeploy@master
       with: 
         APP_NAME: ${{ env.APP_NAME}}
         REGISTRY_LOGIN_SERVER: ${{ secrets.REGISTRY_LOGIN_SERVER }}
